@@ -22,6 +22,10 @@ def drikkevare(vare_id):
         <a href='/varer'>tilbake til alle varer</a>   
     """
 
+@app.route('/kontakt')
+def kontakt():
+    return render_template("kontakt.html")
+
 
 if __name__ == '__main__':
     app.run(debug = True)

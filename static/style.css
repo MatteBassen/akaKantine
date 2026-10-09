@@ -119,3 +119,49 @@ footer {
     transition: 0.3s ease;
     scale: 120%;
 }
+
+.indexBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sider {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 30rem;
+}
+
+.redir {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 13rem;
+    height: 6rem;
+    background-color: orange;
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.redir:hover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 13rem;
+    height: 6rem;
+    background-color: #ffdd00;
+    font-size: xx-large;
+    font-weight: bold;
+    color: black;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s ease;
+    scale: 110%;
+}
