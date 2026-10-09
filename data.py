@@ -32,15 +32,48 @@ ukesmat = [
 
 ]
 
-vareliste = [
+matvarer = [
+    {
+        "navn" : "pizzabolle",
+        "pris" : 30,
+        "bilde" : "https://rorosmeieriet.no/wp-content/uploads/2021/08/20210831_125049-scaled.jpg"
+    },
+    {
+        "navn" : "Stratos",
+        "pris" : 25,
+        "bilde" : "https://norskmat.com/wp-content/uploads/2021/09/nidar-stratos-bar-42g.png"
+    },
+]
+
+drikkevarer = [
     {
         "navn" : "sjokomelk",
         "pris" : 25,
         "bilde" : "https://bilder.ngdata.no/7048840090174/meny/large.jpg"
     },
     {
-        "navn" : "pizzabolle",
-        "pris" : 30,
-        "bilde" : "https://rorosmeieriet.no/wp-content/uploads/2021/08/20210831_125049-scaled.jpg"
-    }
+        "navn": "Iste fersken",
+        "pris": 25,
+        "bilde": "https://bilder.ngdata.no/7038010067327/meny/large.jpg"
+    },
+    {
+        "navn": "Sprite",
+        "pris": 30,
+        "bilde": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk1qU2fpTTmP4NXyBablCLJj-x_kvFP29K3h3jiReJ0HNdN5BeF7ls7Csr&s=10"
+    },
+    {
+        "navn": "Iste lime",
+        "pris": 25,
+        "bilde": "https://bilder.ngdata.no/7038010067334/meny/large.jpg"
+    },
+    {
+        "navn": "Voss vann",
+        "pris": 200,
+        "bilde": "https://images.prisradar.no/uploads/images/product_image/big/23/5H5hHftUTVStDQNJ3Fv6Oi5saae8IgXtLKcmJ2ZdjW5E8tADRx9VzZgkkSX2vx.jpg?20240814182157"
+    },
+    {
+        "navn": "Coca Cola",
+        "pris": 30,
+        "bilde": "https://bilder.ngdata.no/54490703/kmh/large.jpg"
+    },
 ]

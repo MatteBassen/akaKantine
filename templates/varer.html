@@ -7,8 +7,23 @@
 {% block content %}
     <div class="varerBody">
     <h1>Varer</h1>
+
+    <h2>Drikkevarer</h2>
+
         <div class="varer">
-        {% for vare in varer %}
+        {% for vare in drikkevarer %}
+            <div class="vare">
+                <h2>{{ vare.navn }}</h2>
+                <img class="vareImg" src="{{ vare.bilde }}">
+                <h2>{{ vare.pris }} kr</h2>
+            </div>
+        {% endfor %}
+        </div>
+<br>
+    <h2>Mat og Snacks</h2>
+
+        <div class="varer">
+        {% for vare in matvarer %}
             <div class="vare">
                 <h2>{{ vare.navn }}</h2>
                 <img class="vareImg" src="{{ vare.bilde }}">

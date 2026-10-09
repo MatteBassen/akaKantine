@@ -31,15 +31,19 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 50rem;
+    width: 80rem;
 }
 
 .vare {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: orange 0.2rem solid;
+    border: rgb(255 165 0 / 0.42) 0.2rem solid;
+    border-radius: 8px;
     padding: 1rem;
+    width: 10rem;
+    text-align: center;
+
 }
 
 .varerBody {
