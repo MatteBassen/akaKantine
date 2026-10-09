@@ -13,9 +13,11 @@
         <div class="varer">
         {% for vare in drikkevarer %}
             <div class="vare">
+                <a href="/vare/{{ vare.id }}">
                 <h2>{{ vare.navn }}</h2>
                 <img class="vareImg" src="{{ vare.bilde }}">
                 <h2>{{ vare.pris }} kr</h2>
+                </a>
             </div>
         {% endfor %}
         </div>
@@ -24,7 +26,7 @@
 
         <div class="varer">
         {% for vare in matvarer %}
-            <div class="vare">
+            <div class="vare" onclick="valgtVare()">
                 <h2>{{ vare.navn }}</h2>
                 <img class="vareImg" src="{{ vare.bilde }}">
                 <h2>{{ vare.pris }} kr</h2>

@@ -38,11 +38,34 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: black;
+    text-decoration-line: none;
     border: rgb(255 165 0 / 0.42) 0.2rem solid;
     border-radius: 8px;
     padding: 1rem;
     width: 10rem;
     text-align: center;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.vare a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.vare:hover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: orange 0.2rem solid;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 10rem;
+    text-align: center;
+    transition: 0.3s ease;
+    scale: 110%;
 
 }
 
