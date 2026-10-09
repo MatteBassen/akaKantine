@@ -1,0 +1,28 @@
+body {
+    font-family: "Apple SD Gothic Neo";
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    margin: 2rem;
+}
+
+.nav {
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+
+.navBtn {
+    color: white;
+    margin-top: 1rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+}
