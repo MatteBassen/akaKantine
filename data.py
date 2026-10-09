@@ -32,7 +32,7 @@ ukesmat = [
 
 ]
 
-varer = [
+vareliste = [
     {
         "navn" : "sjokomelk",
         "pris" : 25,
