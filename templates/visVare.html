@@ -5,5 +5,20 @@
 {% endblock %}
 
 {% block content %}
-<h1>ja heisann</h1>
+    <div class="visVareBody">
+    <h1 class="tittel">{{ vare.navn }}</h1>
+
+    <div class="visVarePiler">
+        <a href="{{ vare.id - 1 }}"><</a>
+    <img class="vareImgStor" src="{{ vare.bilde }}">
+        <a href="{{ vare.id + 1 }}">></a>
+    </div>
+
+    {% if vare in drikkevarer %}
+        <h2>{{ vare.innhold }} Ml</h2>
+    {% else %}
+        <h2>{{ vare.innhold }} kcal</h2>
+    {% endif %}
+    <h1>{{ vare.pris }} kr</h1>
+    </div>
 {% endblock %}

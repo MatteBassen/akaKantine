@@ -36,12 +36,14 @@ matvarer = [
     {
         "id" : 1,
         "navn" : "pizzabolle",
+        "innhold": 250,
         "pris" : 30,
         "bilde" : "https://rorosmeieriet.no/wp-content/uploads/2021/08/20210831_125049-scaled.jpg"
     },
     {
         "id": 2,
         "navn" : "Stratos",
+        "innhold": 227,
         "pris" : 25,
         "bilde" : "https://norskmat.com/wp-content/uploads/2021/09/nidar-stratos-bar-42g.png"
     },
@@ -51,36 +53,42 @@ drikkevarer = [
     {
         "id": 3,
         "navn" : "sjokomelk",
+        "innhold" : 500,
         "pris" : 25,
         "bilde" : "https://bilder.ngdata.no/7048840090174/meny/large.jpg"
     },
     {
         "id": 4,
         "navn": "Iste fersken",
+        "innhold" : 500,
         "pris": 25,
         "bilde": "https://bilder.ngdata.no/7038010067327/meny/large.jpg"
     },
     {
         "id": 5,
         "navn": "Sprite",
+        "innhold": 500,
         "pris": 30,
         "bilde": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk1qU2fpTTmP4NXyBablCLJj-x_kvFP29K3h3jiReJ0HNdN5BeF7ls7Csr&s=10"
     },
     {
         "id": 6,
         "navn": "Iste lime",
+        "innhold": 500,
         "pris": 25,
         "bilde": "https://bilder.ngdata.no/7038010067334/meny/large.jpg"
     },
     {
         "id": 7,
         "navn": "Voss vann",
+        "innhold": 750,
         "pris": 200,
         "bilde": "https://images.prisradar.no/uploads/images/product_image/big/23/5H5hHftUTVStDQNJ3Fv6Oi5saae8IgXtLKcmJ2ZdjW5E8tADRx9VzZgkkSX2vx.jpg?20240814182157"
     },
     {
         "id": 8,
         "navn": "Coca Cola",
+        "innhold": 500,
         "pris": 30,
         "bilde": "https://bilder.ngdata.no/54490703/kmh/large.jpg"
     },

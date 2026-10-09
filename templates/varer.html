@@ -6,9 +6,9 @@
 
 {% block content %}
     <div class="varerBody">
-    <h1>Varer</h1>
+    <h1 class="tittel">Varer</h1>
 
-    <h2>Drikkevarer</h2>
+    <h2 class="tittel">Drikkevarer</h2>
 
         <div class="varer">
         {% for vare in drikkevarer %}
@@ -22,14 +22,16 @@
         {% endfor %}
         </div>
 <br>
-    <h2>Mat og Snacks</h2>
+    <h2 class="tittel">Mat og Snacks</h2>
 
         <div class="varer">
         {% for vare in matvarer %}
-            <div class="vare" onclick="valgtVare()">
+            <div class="vare">
+                <a href="/vare/{{ vare.id }}">
                 <h2>{{ vare.navn }}</h2>
                 <img class="vareImg" src="{{ vare.bilde }}">
                 <h2>{{ vare.pris }} kr</h2>
+                </a>
             </div>
         {% endfor %}
         </div>

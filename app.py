@@ -16,7 +16,7 @@ def varer():
 def drikkevare(vare_id):
     for vare in drikkevarer + matvarer:
         if vare_id == vare['id']:
-            return render_template("visVare.html", vare = vare)
+            return render_template("visVare.html", vare = vare, drikkevarer = drikkevarer, matvarer = matvarer)
     return """
         <h1>Vi har ikke denne varen</h1>
         <a href='/varer'>tilbake til alle varer</a>   
