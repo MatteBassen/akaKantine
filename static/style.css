@@ -1,11 +1,43 @@
 body {
-    font-family: "Apple SD Gothic Neo", serif;
+    font-family: "LCD", sans-serif;
     padding: 0;
     margin: 0;
+    color: white;
+    background-color: rgb(21 21 21 / 0.96);
 }
 
-.content {
-    margin: 2rem;
+
+.indexBody {
+    position: relative;
+    isolation: isolate;
+    height: 50rem;
+    background-color: rgb(21 21 21 / 0.42);
+}
+
+.indexBody::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background-image: url("https://www.thedailymeal.com/img/gallery/cafeteria-style-restaurant-foods-most-people-dont-talk-about-anymore/l-intro-1760547292.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    filter: blur(5px);
+    z-index: -1;
+}
+
+.indexContent{
+    margin-top: 5rem;
+    padding: 2rem;
+    background-color: rgb(0 0 0 / 0.62);
+    border: orange 4px solid;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
 }
 
 .nav {
@@ -13,18 +45,23 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
     font-weight: bold;
+    height: 5rem;
+    position: relative;
+    z-index: 10;
 }
 
 .navBtn {
     color: white;
-    margin-top: 1rem;
 }
 
 footer {
     display: flex;
     justify-content: center;
-    background-color: lightgray;
+    background-color: rgb(21 21 21 / 0.96);
+    position: relative;
+    height: 10rem;
 }
 
 .varer {
@@ -32,13 +69,14 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
     width: 80rem;
+    padding: 5rem;
 }
 
 .vare {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: black;
+    color: inherit;
     text-decoration-line: none;
     border: rgb(255 165 0 / 0.42) 0.2rem solid;
     border-radius: 8px;
@@ -59,7 +97,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: orange 0.2rem solid;
+    border: #236c3a 0.2rem solid;
     border-radius: 8px;
     padding: 1rem;
     width: 10rem;
@@ -86,7 +124,7 @@ footer {
 .tittel {
     font-weight: bolder;
     text-decoration: orange underline;
-    font-size: xx-large;
+    scale: 120%;
 }
 
 .visVareBody {
@@ -112,7 +150,7 @@ footer {
 
 .visVarePiler a:hover {
     margin: 10rem 10rem 0;
-    color: orange;
+    color: #236c3a;
     text-decoration: none;
     font-size: xxx-large;
     font-weight: bolder;
@@ -156,10 +194,10 @@ footer {
     justify-content: center;
     width: 13rem;
     height: 6rem;
-    background-color: #ffdd00;
+    background-color: #236c3a;
     font-size: xx-large;
     font-weight: bold;
-    color: black;
+    color: white;
     border-radius: 8px;
     text-decoration: none;
     transition: 0.3s ease;

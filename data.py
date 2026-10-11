@@ -32,64 +32,87 @@ ukesmat = [
 
 ]
 
-matvarer = [
-    {
-        "id" : 1,
-        "navn" : "pizzabolle",
-        "innhold": 250,
-        "pris" : 30,
-        "bilde" : "https://rorosmeieriet.no/wp-content/uploads/2021/08/20210831_125049-scaled.jpg"
-    },
-    {
-        "id": 2,
-        "navn" : "Stratos",
-        "innhold": 227,
-        "pris" : 25,
-        "bilde" : "https://norskmat.com/wp-content/uploads/2021/09/nidar-stratos-bar-42g.png"
-    },
-]
 
 drikkevarer = [
     {
-        "id": 3,
+        "id": 1,
         "navn" : "sjokomelk",
         "innhold" : 500,
         "pris" : 25,
-        "bilde" : "https://bilder.ngdata.no/7048840090174/meny/large.jpg"
+        "bilde" : "https://www.q-meieriene.no/produkter/q-fersk-sjokolademelk/_/image/4c01b0a8-4a03-4a31-88e5-9163545ea9dc:715390c6b30bd9b73e3352cb91c2b98d97629c27/width-800/Sjokomelk1L_2019_side_view_lip7qe.png"
     },
     {
-        "id": 4,
+        "id": 2,
         "navn": "Iste fersken",
         "innhold" : 500,
         "pris": 25,
         "bilde": "https://bilder.ngdata.no/7038010067327/meny/large.jpg"
     },
     {
-        "id": 5,
+        "id": 3,
         "navn": "Sprite",
         "innhold": 500,
         "pris": 30,
-        "bilde": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk1qU2fpTTmP4NXyBablCLJj-x_kvFP29K3h3jiReJ0HNdN5BeF7ls7Csr&s=10"
+        "bilde": "https://addide.com/cdn/shop/products/Sprite-Original-282x700.png?v=1625571895"
     },
     {
-        "id": 6,
+        "id": 4,
         "navn": "Iste lime",
         "innhold": 500,
         "pris": 25,
         "bilde": "https://bilder.ngdata.no/7038010067334/meny/large.jpg"
     },
     {
-        "id": 7,
+        "id": 5,
         "navn": "Voss vann",
         "innhold": 750,
         "pris": 200,
         "bilde": "https://images.prisradar.no/uploads/images/product_image/big/23/5H5hHftUTVStDQNJ3Fv6Oi5saae8IgXtLKcmJ2ZdjW5E8tADRx9VzZgkkSX2vx.jpg?20240814182157"
     },
     {
-        "id": 8,
+        "id": 6,
         "navn": "Coca Cola",
-        "innhold": 500,
+        "innhold": 330,
         "pris": 30,
-        "bilde": "https://bilder.ngdata.no/54490703/kmh/large.jpg"
+        "bilde": "https://purepng.com/public/uploads/large/purepng.com-coca-cola-bottlecokecoca-colacoca-cola-bottlebeveragedrinksoft-drink-1411527237341bkz0i.png"
     },
+]
+
+matvarer = [
+    {
+        "id" : 7,
+        "navn" : "pizzabolle",
+        "innhold": 247,
+        "pris" : 30,
+        "bilde" : "https://rorosmeieriet.no/wp-content/uploads/2021/08/20210831_125049-scaled.jpg"
+    },
+    {
+        "id": 8,
+        "navn" : "Stratos",
+        "innhold": 227,
+        "pris" : 25,
+        "bilde" : "https://norskmat.com/wp-content/uploads/2021/09/nidar-stratos-bar-42g.png"
+    },
+    {
+        "id": 9,
+        "navn" : "Sjokoladebolle 6pk",
+        "innhold": 316,
+        "pris" : 50,
+        "bilde" : "https://cdcimg.coop.no/rte/RTE2/7025168007176.png"
+    },
+    {
+        "id": 10,
+        "navn": "Skolebrød 2pk",
+        "innhold": 504,
+        "pris": 40,
+        "bilde": "https://bilder.ngdata.no/7041614004032/kmh/large.jpg"
+    },
+    {
+        "id": 11,
+        "navn": "Potetgull 40g",
+        "innhold": 515,
+        "pris": 30,
+        "bilde": "https://bilder.ngdata.no/id/1477386/large.jpg"
+    },
+
 ]

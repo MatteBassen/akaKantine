@@ -8,8 +8,10 @@ En kantine nettside for akademiet.
 - En hjemside
 
 # Funksjoner
+- Dyanamisk side som viser varer
 
 # Bruk av AI
+- jeg brukte litt ai for å skjønner hvordan jeg kan blurre bakgrunnen i index.html, linje 8 - 25 i style.css har jeg fått hjelp av AI, jeg har ikke copy paste og fikk forklart av AI.
 
 # Kilder
 - Bilhallen oppgaven, jeg brukte mye av de samme funksjonene her som når man trykker på en vare så kommer du til en ny side

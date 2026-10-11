@@ -8,6 +8,8 @@
     <div class="varerBody">
     <h1 class="tittel">Varer</h1>
 
+        <h2>Her kan du se noen av de faste varene vi har i kantina</h2>
+
     <h2 class="tittel">Drikkevarer</h2>
 
         <div class="varer">
@@ -15,6 +17,7 @@
             <div class="vare">
                 <a href="/vare/{{ vare.id }}">
                 <h2>{{ vare.navn }}</h2>
+                    <p>{{ vare.innhold }} Ml</p>
                 <img class="vareImg" src="{{ vare.bilde }}">
                 <h2>{{ vare.pris }} kr</h2>
                 </a>
@@ -29,6 +32,7 @@
             <div class="vare">
                 <a href="/vare/{{ vare.id }}">
                 <h2>{{ vare.navn }}</h2>
+                    <p>{{ vare.innhold }} Kcal</p>
                 <img class="vareImg" src="{{ vare.bilde }}">
                 <h2>{{ vare.pris }} kr</h2>
                 </a>
