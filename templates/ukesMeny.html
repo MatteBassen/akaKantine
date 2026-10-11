@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Ukesmeny
+{% endblock %}
+
+{% block content %}
+
+    <div class="ukesmenyBody">
+        <h1 class="tittel">Ukesmeny</h1>
+        <h3>her kan du se denne ukens meny</h3>
+        <div class="ukesmeny">
+            {% for dag in ukesmeny %}
+                <div class="dag">
+
+                    <h2 class="tittel">{{ dag.dag }}</h2>
+                    <h3>{{ dag.rett }}</h3>
+                    <img src="{{ dag.bilde }}">
+                    <h3>{{ dag.beskrivelse }}</h3>
+
+                </div>
+
+
+            {% endfor %}
+        </div>
+
+
+    </div>
+
+{% endblock %}

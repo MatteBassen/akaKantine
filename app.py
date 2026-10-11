@@ -13,7 +13,7 @@ def varer():
     return render_template("varer.html", drikkevarer = drikkevarer, matvarer = matvarer )
 
 @app.route('/vare/<int:vare_id>')
-def drikkevare(vare_id):
+def visVare(vare_id):
     for vare in drikkevarer + matvarer:
         if vare_id == vare['id']:
             return render_template("visVare.html", vare = vare, drikkevarer = drikkevarer, matvarer = matvarer)
@@ -21,6 +21,11 @@ def drikkevare(vare_id):
         <h1>Vi har ikke denne varen</h1>
         <a href='/varer'>tilbake til alle varer</a>   
     """
+
+@app.route('/ukesMeny')
+def ukesMeny():
+    return render_template("ukesMeny.html", ukesmeny = ukesmat)
+
 
 @app.route('/kontakt')
 def kontakt():
