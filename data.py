@@ -1,32 +1,32 @@
 ukesmat = [
     {
-        "dag" : "mandag",
-        "rett" : "taco",
-        "beskrivelse" : "Taco i sjell med kjøttdeig, salat, rømme og diverse grønnsaker",
+        "dag" : "Mandag",
+        "rett" : "Taco",
+        "beskrivelse" : "Taco i skjell med kjøttdeig, salat, rømme og diverse grønnsaker",
         "bilde" : "https://t3.ftcdn.net/jpg/01/21/83/80/360_F_121838061_eb9T4qBv5fVsRQXTjQLYnbHSAJejpwcK.jpg"
     },
     {
-        "dag" : "tirsdag",
-        "rett" : "kabaret",
+        "dag" : "Tirsdag",
+        "rett" : "Kabaret",
         "beskrivelse" : "Pølse, reker og grønnsaker i gjennomsiktig gele",
         "bilde" : "https://images.matprat.no/fhzk68rqqe__w=1200_h=1200_autocrop=true_cropMode=zoom/image.webp"
     },
     {
-        "dag" : "onsdag",
-        "rett" : "pizza",
+        "dag" : "Onsdag",
+        "rett" : "Pizza",
         "beskrivelse" : "Amerikansk pizza med tomatsaus, ost og pepperoni",
         "bilde" : "https://arecipeforfun.com/wp-content/uploads/2025/03/Edits-Turkey-Pepperoni-Pizza-Recipe-14.jpg"
     },
     {
-        "dag" : "torsdag",
-        "rett" : "indisk kyllingsuppe",
+        "dag" : "Torsdag",
+        "rett" : "Indisk kyllingsuppe",
         "beskrivelse" : "Spicy og kremet kyllingsuppe, serveres med brød",
         "bilde" : "https://i1.vrs.gd/gladkokken/uploads/images/DSC_0985.jpg?width=1800&height=1000&format=jpg&quality=80&crop=6000%2C3334%2C0%2C333"
     },
     {
-        "dag" : "fredag",
-        "rett" : "løvbiff og pomfri",
-        "beskrivelse" : "løvbiff med pomfri, serveres med bernaise saus og grønnsaker",
+        "dag" : "Fredag",
+        "rett" : "løvbiff og pommes frittes",
+        "beskrivelse" : "Løvbiff med pommes frittes, serveres med bernaisesaus og grønnsaker",
         "bilde" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZeoS42qMHfvwrut1U__i_9SjU9ESo6UqNNeRYLHYlhw&s=10"
     },
 
@@ -36,7 +36,7 @@ ukesmat = [
 drikkevarer = [
     {
         "id": 1,
-        "navn" : "sjokomelk",
+        "navn" : "Sjokomelk",
         "innhold" : 500,
         "pris" : 25,
         "bilde" : "https://www.q-meieriene.no/produkter/q-fersk-sjokolademelk/_/image/4c01b0a8-4a03-4a31-88e5-9163545ea9dc:715390c6b30bd9b73e3352cb91c2b98d97629c27/width-800/Sjokomelk1L_2019_side_view_lip7qe.png"
@@ -81,7 +81,7 @@ drikkevarer = [
 matvarer = [
     {
         "id" : 7,
-        "navn" : "pizzabolle",
+        "navn" : "Pizzabolle",
         "innhold": 247,
         "pris" : 30,
         "bilde" : "https://rorosmeieriet.no/wp-content/uploads/2021/08/20210831_125049-scaled.jpg"
@@ -113,6 +113,13 @@ matvarer = [
         "innhold": 515,
         "pris": 30,
         "bilde": "https://bilder.ngdata.no/id/1477386/large.jpg"
+    },
+    {
+        "id": 12,
+        "navn": "Haribo",
+        "innhold": 330,
+        "pris": 28,
+        "bilde": "https://bilder.ngdata.no/5996379193748/meny/large.jpg"
     },
 
 ]
