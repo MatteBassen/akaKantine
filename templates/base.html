@@ -4,23 +4,20 @@
     <meta charset="UTF-8">
     <title>{% block title %} {% endblock%}</title>
     <link rel="stylesheet" href="/static/style.css">
-    <link rel="icon" href="/static/bilder/ikon.webp">
+    <link rel="icon" href="/static/bilder/ikon.png">
 </head>
 <body>
     <nav class="nav">
         <p>AkaKantine</p>
-
-        <a href="/" class="navBtn">Hjem</a>
-        <a href="/ukesMeny" class="navBtn">Ukesmeny</a>
-        <a href="/varer" class="navBtn">Varer</a>
-        <a href="/kontakt" class="navBtn">Kontakt</a>
+            <a href="/" class="navBtn">Hjem</a>
+            <a href="/ukesMeny" class="navBtn">Ukesmeny</a>
+            <a href="/varer" class="navBtn">Varer</a>
+            <a href="/kontakt" class="navBtn">Kontakt</a>
 
     </nav>
-    <div class="content">
     {% block content %}
 
     {% endblock %}
-    </div>
     <footer>
         <h2>laget at Mattebassen :)</h2>
     </footer>
