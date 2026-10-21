@@ -10,11 +10,14 @@
 
         <h2>Her kan du se noen av de faste varene vi har i kantina</h2>
 
+        <div class="søkefeltDiv">
+        <input id="søkeFelt" placeholder="Søk etter vare">
+        </div>
     <h2 class="tittel">Drikkevarer</h2>
 
         <div class="varer">
         {% for vare in drikkevarer %}
-            <div class="vare">
+            <div class="vare" data-innhold="{{ vare.innhold }} Ml">
                 <a href="/vare/{{ vare.id }}">
                 <h2>{{ vare.navn }}</h2>
                     <p>{{ vare.innhold }} Ml</p>
@@ -24,12 +27,12 @@
             </div>
         {% endfor %}
         </div>
-<br>
+
     <h2 class="tittel">Mat og Snacks</h2>
 
         <div class="varer">
         {% for vare in matvarer %}
-            <div class="vare">
+            <div class="vare" data-innhold="{{ vare.innhold }} Kcal">
                 <a href="/vare/{{ vare.id }}">
                 <h2>{{ vare.navn }}</h2>
                     <p>{{ vare.innhold }} Kcal</p>
@@ -40,5 +43,25 @@
         {% endfor %}
         </div>
     </div>
+
+    <script>
+        const søkeFelt = document.getElementById("søkeFelt")
+        const varer = document.querySelectorAll(".vare")
+
+
+        søkeFelt.addEventListener("input", function() {
+            const søk = søkeFelt.value.toLowerCase();
+
+            varer.forEach(function(vare) {
+                const navn = vare.querySelector("h2").textContent.toLowerCase()
+
+                if (navn.includes(søk)) {
+                    vare.style.display = ""
+                } else {
+                    vare.style.display = "none"
+                }
+            })
+        })
+    </script>
 
 {% endblock %}
