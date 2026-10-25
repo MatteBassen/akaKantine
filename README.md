@@ -9,6 +9,7 @@ En kantine nettside for akademiet.
 
 # Funksjoner
 - Dyanamisk side som viser varer
+- en side som viser ukesmneny og dynamiske allergener
 
 # Bruk av AI
 - jeg brukte litt ai for å skjønner hvordan jeg kan blurre bakgrunnen i index.html, linje 8 - 25 i style.css har jeg fått hjelp av AI, jeg har ikke copy paste og fikk forklart av AI.
