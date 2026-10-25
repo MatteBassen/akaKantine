@@ -12,13 +12,14 @@
         <h3>Varm mat koster 50kr hver dag :)</h3>
         <div class="ukesmeny">
             {% for dag in ukesmeny %}
+
                 <div class="dag">
-
-                    <h2 class="tittel">{{ dag.dag }}</h2>
-                    <h3>{{ dag.rett }}</h3>
-                    <img src="{{ dag.bilde }}">
-                    <h3>{{ dag.beskrivelse }}</h3>
-
+                        <h2>{{ dag.dag }}</h2>
+                        <h3>{{ dag.rett }}</h3>
+                        <img src="{{ dag.bilde }}">
+                        <h3>{{ dag.beskrivelse }}</h3>
+                        <p style="font-weight: bold">Allergener:</p>
+                        <p>{{ dag.allergener }}</p>
                 </div>
 
 

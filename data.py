@@ -3,31 +3,36 @@ ukesmat = [
         "dag" : "Mandag",
         "rett" : "Taco",
         "beskrivelse" : "Taco i skjell med kjøttdeig, salat, rømme og diverse grønnsaker",
-        "bilde" : "https://t3.ftcdn.net/jpg/01/21/83/80/360_F_121838061_eb9T4qBv5fVsRQXTjQLYnbHSAJejpwcK.jpg"
+        "bilde" : "https://t3.ftcdn.net/jpg/01/21/83/80/360_F_121838061_eb9T4qBv5fVsRQXTjQLYnbHSAJejpwcK.jpg",
+        "allergener" : "Gluten og Laktose"
     },
     {
         "dag" : "Tirsdag",
         "rett" : "Kabaret",
         "beskrivelse" : "Pølse, reker og grønnsaker i gjennomsiktig gele",
-        "bilde" : "https://images.matprat.no/fhzk68rqqe__w=1200_h=1200_autocrop=true_cropMode=zoom/image.webp"
+        "bilde" : "https://images.matprat.no/fhzk68rqqe__w=1200_h=1200_autocrop=true_cropMode=zoom/image.webp",
+        "allergener" : "Gelatin og Gulrot"
     },
     {
         "dag" : "Onsdag",
-        "rett" : "Pizza",
-        "beskrivelse" : "Amerikansk pizza med tomatsaus, ost og pepperoni",
-        "bilde" : "https://arecipeforfun.com/wp-content/uploads/2025/03/Edits-Turkey-Pepperoni-Pizza-Recipe-14.jpg"
+        "rett" : "Smalahove",
+        "beskrivelse" : "Deilig norsk smalahove langtidskokt i skoledassen",
+        "bilde" : "https://media.snl.no/media/51803/standard_smalahove.jpg",
+        "allergener" : "kålrabistappe (ikke halal)"
     },
     {
         "dag" : "Torsdag",
-        "rett" : "Indisk kyllingsuppe",
-        "beskrivelse" : "Spicy og kremet kyllingsuppe, serveres med brød",
-        "bilde" : "https://i1.vrs.gd/gladkokken/uploads/images/DSC_0985.jpg?width=1800&height=1000&format=jpg&quality=80&crop=6000%2C3334%2C0%2C333"
+        "rett" : "Arne Brimi´s Rømmegraut",
+        "beskrivelse" : "Fantastisk smakende rømmegrøt fra fjordland, oppskriften er av hele norges Arne Brimi",
+        "bilde" : "https://image.horecanytt.no/410248.webp?imageId=410248&width=960&height=1262&format=jpg",
+        "allergener" : "Laktose"
     },
     {
         "dag" : "Fredag",
-        "rett" : "løvbiff og pommes frittes",
-        "beskrivelse" : "Løvbiff med pommes frittes, serveres med bernaisesaus og grønnsaker",
-        "bilde" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZeoS42qMHfvwrut1U__i_9SjU9ESo6UqNNeRYLHYlhw&s=10"
+        "rett" : "Helgrillet pattegris",
+        "beskrivelse" : "(HALAL) Deilig indonesisk pattegris stekt over bålet i personalkantina",
+        "bilde" : "https://d2j6dbq0eux0bg.cloudfront.net/images/88907252/3707560864.jpg",
+        "allergener" : "Ikke halal"
     },
 
 ]

@@ -17,7 +17,7 @@
 
         <div class="varer">
         {% for vare in drikkevarer %}
-            <div class="vare" data-innhold="{{ vare.innhold }} Ml">
+            <div class="vare">
                 <a href="/vare/{{ vare.id }}">
                 <h2>{{ vare.navn }}</h2>
                     <p>{{ vare.innhold }} Ml</p>
@@ -32,7 +32,7 @@
 
         <div class="varer">
         {% for vare in matvarer %}
-            <div class="vare" data-innhold="{{ vare.innhold }} Kcal">
+            <div class="vare">
                 <a href="/vare/{{ vare.id }}">
                 <h2>{{ vare.navn }}</h2>
                     <p>{{ vare.innhold }} Kcal</p>
